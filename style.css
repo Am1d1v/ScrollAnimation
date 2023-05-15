@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #8c9297;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212c68;
+  margin-top: 30px;
+  border-radius: 10px;
+  transform: translateX(500%);
+  transition: transform 0.5s;
+}
+.box h2 {
+  font-size: 40px;
+}
+
+.box_show {
+  transform: translateX(0);
+}/*# sourceMappingURL=style.css.map */
